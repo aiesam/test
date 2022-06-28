@@ -1,1 +1,1 @@
-pythonjsonlogger
+python-json-logger==2.0.2
