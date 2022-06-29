@@ -1,1 +1,2 @@
 python-json-logger==2.0.2
+ecs-logging==2.0.0
