@@ -9,7 +9,7 @@ from random import randint
 logger = logging.getLogger("app")
 logger.setLevel(logging.DEBUG)
 #handler = logging.FileHandler('elvis.json')
-logHandler = logging.StreamHandler()
+handler = logging.StreamHandler()
 handler.setFormatter(ecs_logging.StdlibFormatter())
 logger.addHandler(handler)
 
